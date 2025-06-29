@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 # Load the model
-loaded_data = joblib.load('Selected_customer_churn_model.pkl')
+loaded_data = joblib.load('Saved_models/Selected_customer_churn_model.pkl')
 model = loaded_data["model"]
 
 # Prediction function
